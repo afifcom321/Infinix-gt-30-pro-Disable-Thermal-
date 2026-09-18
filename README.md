@@ -73,13 +73,7 @@ Activity logs are saved to:
 - Root access via **KernelSU**
 - Terminal/ADB access recommended, for checking logs or emergency uninstall
 
-## Recommended Install Order
 
-Per the notes in `customize.sh`, module load order follows the naming order in KernelSU Manager. The recommended flashing order is:
-
-1. `GT30Pro Performance v4.1`
-2. `GT30Pro GPU Fix v1.0`
-3. `GT30Pro Thermal Kill v1.1` (this module)
 
 ## Installation
 
