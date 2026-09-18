@@ -1,4 +1,4 @@
-# GT30Pro Thermal Kill (v1.2-KSU)
+# GT30Pro Thermal Kill (v1.1-KSU)
 
 A **KernelSU** module that performs a deep bypass of the built-in thermal throttling system on the **Infinix GT 30 Pro** (MediaTek chipset). It disables kernel/DVFS-level temperature limiting (thermal zones, cooling devices, DVFS ceiling, battery throttle) without stopping the `vendor.thermal-mediatek` service (so the system doesn't flag a thermal anomaly). **This module does not lock CPU/GPU frequency** — the governor is left at the system's default behavior.
 
