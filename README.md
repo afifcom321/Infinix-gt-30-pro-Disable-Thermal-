@@ -47,7 +47,6 @@ Only use this module if you understand the risks and know how to recover your de
 7. **Removes MediaTek's DVFS thermal ceiling** via several debugfs/procfs paths.
 8. **"Safe" watchdog** — a background loop that checks every 5 seconds whether `android.hardware.thermal-service.mediatek` has restarted (and stops it again) and resets any cooling device that becomes active again, **without** touching `vendor.thermal-mediatek`.
 
-> **v1.2 note:** the previous version (v1.1) also permanently locked CPU and GPU frequency to maximum. That part has been **removed** — the module now only bypasses thermal protection; CPU/GPU follow the system's default governor.
 
 Activity logs are saved to:
 ```
